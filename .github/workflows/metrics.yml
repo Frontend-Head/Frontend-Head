@@ -1,0 +1,39 @@
+name: Metrics
+
+# Rendert Statistik-Panels als SVG und committet sie nach assets/.
+# Dadurch hängt das README an keiner fremden Infrastruktur.
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Überblick
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: assets/metrics.svg
+          base: header, activity, repositories
+          config_timezone: Europe/Berlin
+          plugin_lines: yes
+
+      - name: Sprachen
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: assets/languages.svg
+          base: ""
+          config_timezone: Europe/Berlin
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_colors: github

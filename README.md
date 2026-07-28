@@ -16,28 +16,9 @@
 
 ## Über mich
 
-Ich baue Webanwendungen, die nicht nur im Screenshot gut aussehen, sondern auch
-nach sechs Monaten Produktivbetrieb noch wartbar sind. Vom Interface bis zur API
-dahinter — mit einer Schwäche für saubere Datenmodelle und dafür, den einen
-Zustand zu finden, den noch niemand bedacht hat.
-
-Das Bild oben ist ziemlich genau die Wahrheit: später Abend, zwei Bildschirme,
-und eine Katze, die der festen Überzeugung ist, die Leertaste gehöre ihr.
-
----
-
-## Wie ich arbeite
-
-**Erst das Problem, dann der Stack.** Die interessante Frage ist selten, welches
-Framework — sondern was eigentlich schiefgehen kann.
-
-**Der Edge Case ist der eigentliche Fall.** Leere Liste, abgebrochene Verbindung,
-doppelter Klick. Was dort passiert, entscheidet, ob Software sich solide anfühlt.
-
-**Lesbar schlägt clever.** Code wird deutlich öfter gelesen als geschrieben — meist
-von jemandem, der den Kontext nicht mehr hat. Manchmal bin das ich selbst.
-
-**Fertig heißt überprüft.** Ein grüner Build ist kein Beweis, sondern ein Indiz.
+Ich baue Webanwendungen vom Interface bis zur API dahinter — mit Schwerpunkt auf
+TypeScript, React und Next.js. Am meisten Zeit verbringe ich mit Datenmodellen
+und Zuständen, die auf den ersten Blick niemand bedacht hat.
 
 ---
 
@@ -71,19 +52,25 @@ von jemandem, der den Kontext nicht mehr hat. Manchmal bin das ich selbst.
 
 ---
 
-## GitHub Statistiken
+## Contribution Graph
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Frontend-Head&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Frontend-Head&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="Top Sprachen" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frontend-Head/Frontend-Head/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Frontend-Head/Frontend-Head/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/Frontend-Head/Frontend-Head/output/snake-dark.svg" alt="Eine Schlange frisst sich durch den Contribution-Graph" width="100%" />
+</picture>
 
 </div>
 
 ---
 
+## Aktivität
+
 <div align="center">
 
-*Kaffee wird kalt. Der Build läuft trotzdem durch.*
+<img src="assets/metrics.svg" alt="Übersicht: Commits, aktive Repositories und geschriebene Codezeilen" width="47%" />
+<img src="assets/languages.svg" alt="Verteilung der verwendeten Programmiersprachen" width="47%" />
 
 </div>
