@@ -1,7 +1,11 @@
 name: Metrics
 
-# Rendert Statistik-Panels als SVG und committet sie nach assets/.
+# Rendert den Contribution-Kalender als SVG und committet ihn nach assets/.
 # Dadurch hängt das README an keiner fremden Infrastruktur.
+#
+# Hinweis: Mit dem Standard-GITHUB_TOKEN sind nur öffentliche Daten sichtbar.
+# Für Auswertungen über private Repos (Sprachverteilung, Commit-Zahlen)
+# braucht es ein PAT mit "repo"-Scope, hinterlegt als Secret METRICS_TOKEN.
 
 on:
   schedule:
@@ -16,24 +20,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Überblick
+      - name: Contribution-Kalender
         uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
-          filename: assets/metrics.svg
-          base: header, activity, repositories
-          config_timezone: Europe/Berlin
-          plugin_lines: yes
-
-      - name: Sprachen
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: ${{ github.repository_owner }}
-          filename: assets/languages.svg
+          filename: assets/isocalendar.svg
           base: ""
           config_timezone: Europe/Berlin
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_colors: github
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

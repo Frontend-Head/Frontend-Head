@@ -70,7 +70,6 @@ und Zuständen, die auf den ersten Blick niemand bedacht hat.
 
 <div align="center">
 
-<img src="assets/metrics.svg" alt="Übersicht: Commits, aktive Repositories und geschriebene Codezeilen" width="47%" />
-<img src="assets/languages.svg" alt="Verteilung der verwendeten Programmiersprachen" width="47%" />
+<img src="assets/isocalendar.svg" alt="Contribution-Kalender der letzten zwölf Monate als isometrische Ansicht" width="100%" />
 
 </div>
