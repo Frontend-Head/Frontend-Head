@@ -6,17 +6,9 @@
 
 **Web- & Fullstack-Entwickler** · TypeScript · React · Next.js · Node.js
 
-<p>
-  <a href="https://DEINE-WEBSITE.de">
-    <img src="https://img.shields.io/badge/Portfolio-1a1a1a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/DEIN-LINKEDIN/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/Frontend-Head">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
+<a href="https://github.com/Frontend-Head?tab=repositories">
+  <img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
+</a>
 
 </div>
 
@@ -24,14 +16,28 @@
 
 ## Über mich
 
-Ich baue moderne Webanwendungen – vom durchdachten UI bis zur API dahinter.
-Mein Fokus liegt auf sauberem, wartbarem Code, guter Performance und Lösungen,
-die im echten Betrieb bestehen.
+Ich baue Webanwendungen, die nicht nur im Screenshot gut aussehen, sondern auch
+nach sechs Monaten Produktivbetrieb noch wartbar sind. Vom Interface bis zur API
+dahinter — mit einer Schwäche für saubere Datenmodelle und dafür, den einen
+Zustand zu finden, den noch niemand bedacht hat.
 
-- 🔭 Aktuell arbeite ich an **DEIN AKTUELLES PROJEKT**
-- 🌱 Ich vertiefe gerade **THEMA, z. B. Server Components & Edge Runtimes**
-- 💬 Sprich mich an zu **React, Next.js, TypeScript, API-Design**
-- 📫 Kontakt am besten über **LinkedIn** oder ein **GitHub-Issue**
+Das Bild oben ist ziemlich genau die Wahrheit: später Abend, zwei Bildschirme,
+und eine Katze, die der festen Überzeugung ist, die Leertaste gehöre ihr.
+
+---
+
+## Wie ich arbeite
+
+**Erst das Problem, dann der Stack.** Die interessante Frage ist selten, welches
+Framework — sondern was eigentlich schiefgehen kann.
+
+**Der Edge Case ist der eigentliche Fall.** Leere Liste, abgebrochene Verbindung,
+doppelter Klick. Was dort passiert, entscheidet, ob Software sich solide anfühlt.
+
+**Lesbar schlägt clever.** Code wird deutlich öfter gelesen als geschrieben — meist
+von jemandem, der den Kontext nicht mehr hat. Manchmal bin das ich selbst.
+
+**Fertig heißt überprüft.** Ein grüner Build ist kein Beweis, sondern ein Indiz.
 
 ---
 
@@ -43,7 +49,6 @@ die im echten Betrieb bestehen.
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
 **Frontend**
 
@@ -57,26 +62,12 @@ die im echten Betrieb bestehen.
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 
-**Tools & Deployment**
+**Tools**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-
----
-
-## Ausgewählte Projekte
-
-| Projekt | Beschreibung | Stack |
-| :--- | :--- | :--- |
-| **[Projektname](https://github.com/Frontend-Head/repo)** | Ein Satz, der den Nutzen erklärt – nicht die Technik. | `Next.js` `TypeScript` `Postgres` |
-| **[Projektname](https://github.com/Frontend-Head/repo)** | Was löst es, für wen? | `React` `Node.js` `Tailwind` |
-| **[Projektname](https://github.com/Frontend-Head/repo)** | Kurz, konkret, ergebnisorientiert. | `TypeScript` `Prisma` `Vercel` |
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 ---
 
@@ -93,8 +84,6 @@ die im echten Betrieb bestehen.
 
 <div align="center">
 
-**Offen für spannende Projekte und Zusammenarbeit.**
-
-Am besten erreichbar über die Links oben.
+*Kaffee wird kalt. Der Build läuft trotzdem durch.*
 
 </div>
