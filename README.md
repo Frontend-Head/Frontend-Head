@@ -52,7 +52,7 @@ und Zuständen, die auf den ersten Blick niemand bedacht hat.
 
 ### DevSpace &nbsp;·&nbsp; Persönlicher Dev-Workspace als PWA
 
-<a href="https://devspace-alpha-five.vercel.app"><img align="left" hspace="5" src="https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" /></a><img align="left" hspace="5" src="https://img.shields.io/badge/Repo-privat-6e7681?style=flat-square&logo=github&logoColor=white" alt="Privates Repo" /><br clear="all" />
+<img src="https://img.shields.io/badge/Repo-privat-6e7681?style=flat-square&logo=github&logoColor=white" alt="Privates Repo" />
 
 Ein Arbeitsplatz für alles, was beim Entwickeln nebenher anfällt: acht Module –
 Notizen, Snippets mit Syntax-Highlighting, To-Dos, Daily Log, Textbausteine,
@@ -72,8 +72,8 @@ Wandelt Text aus PowerPoint und Word in sauberes Newsletter-HTML um. Kern ist ei
 WYSIWYG-Editor auf Basis von Tiptap, hinter dem eine Verarbeitungs-Pipeline steht:
 Struktur und Text sind strikt getrennt, die Ausgaberegeln liegen als
 mandantenspezifische, im Adminmenü pflegbare und einzeln abschaltbare Regelwerke vor.
-Lässt sich zu einer einzigen ~450 kB großen HTML-Datei bauen, die ohne Node, ohne
-Server und ohne Adminrechte per Doppelklick läuft – gedacht für gesperrte Arbeitsrechner.
+Lässt sich zu einer einzigen ~450 kB großen HTML-Datei bauen, die ohne Node und
+ohne Server auskommt.
 
 <img align="left" hspace="5" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="5" src="https://img.shields.io/badge/Tiptap-000000?style=flat-square&logo=tiptap&logoColor=white" alt="Tiptap" /><img align="left" hspace="5" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="5" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" /><br clear="all" />
 
