@@ -52,7 +52,7 @@ und Zuständen, die auf den ersten Blick niemand bedacht hat.
 
 ### DevSpace &nbsp;·&nbsp; Persönlicher Dev-Workspace als PWA
 
-<a href="https://devspace-alpha-five.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" /></a> <img src="https://img.shields.io/badge/Repo-privat-6e7681?style=flat-square&logo=github&logoColor=white" alt="Privates Repo" />
+<a href="https://devspace-alpha-five.vercel.app"><img align="left" hspace="5" src="https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" /></a><img align="left" hspace="5" src="https://img.shields.io/badge/Repo-privat-6e7681?style=flat-square&logo=github&logoColor=white" alt="Privates Repo" /><br clear="all" />
 
 Ein Arbeitsplatz für alles, was beim Entwickeln nebenher anfällt: acht Module –
 Notizen, Snippets mit Syntax-Highlighting, To-Dos, Daily Log, Textbausteine,
