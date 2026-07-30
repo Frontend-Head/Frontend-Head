@@ -1,0 +1,8 @@
+# Shell-Skripte laufen in GitHub Actions auf Ubuntu. Mit CRLF im Working Copy
+# (autocrlf) wuerde sonst ein \r in Variablen landen und die Slot-Zuordnung
+# stillschweigend ins Leere laufen. Deshalb hier festnageln.
+*.sh text eol=lf
+*.yml text eol=lf
+*.mjs text eol=lf
+*.svg text eol=lf
+*.jpg binary

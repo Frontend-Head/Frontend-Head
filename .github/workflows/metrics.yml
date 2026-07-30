@@ -1,18 +1,24 @@
 name: Metrics
 
-# Rendert den Contribution-Kalender als SVG und committet ihn nach assets/.
-# Dadurch hängt das README an keiner fremden Infrastruktur.
+# Rendert Contribution-Kalender und Sprachverteilung als SVG und committet sie
+# nach assets/. Dadurch hängt das README an keiner fremden Infrastruktur.
+#
+# Beide Schritte committen selbst (Standardverhalten der Action), es gibt also
+# zwei Bot-Commits pro Lauf. Dafür sind sie voneinander unabhängig: fällt einer
+# aus, bleibt das andere SVG erhalten.
 #
 # Hinweis: Mit dem Standard-GITHUB_TOKEN sind nur öffentliche Daten sichtbar.
-# Für Auswertungen über private Repos (Sprachverteilung, Commit-Zahlen)
-# braucht es ein PAT mit "repo"-Scope, hinterlegt als Secret METRICS_TOKEN.
+# Für Auswertungen über private Repos braucht es ein PAT mit "repo"-Scope,
+# hinterlegt als Secret METRICS_TOKEN.
 
 on:
   schedule:
     - cron: "30 4 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
+
+concurrency:
+  group: metrics
+  cancel-in-progress: true
 
 jobs:
   metrics:
@@ -21,7 +27,7 @@ jobs:
       contents: write
     steps:
       - name: Contribution-Kalender
-        uses: lowlighter/metrics@v3.34
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
@@ -30,3 +36,21 @@ jobs:
           config_timezone: Europe/Berlin
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+      # Kein GITHUB_TOKEN-Fallback: ohne PAT zählt nur, was öffentlich ist, und
+      # die Grafik wäre irreführend statt bloß unvollständig. Dann soll der
+      # Schritt lieber scheitern.
+      #
+      # plugin_languages_indepth bleibt aus - es klont jedes Repo einzeln und
+      # vervielfacht die Laufzeit; die Byte-Statistik der API genügt hier.
+      - name: Sprachverteilung
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: assets/languages.svg
+          base: ""
+          config_timezone: Europe/Berlin
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage

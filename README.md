@@ -1,10 +1,30 @@
+<!--
+    /\_/\    Du liest den Quelltext. Weiter unten steht, warum die Badges
+   ( o.o )   per align="left" gefloatet werden statt per CSS: GitHubs
+    > ^ <    Sanitizer entfernt style-Attribute, align lässt er durch.
+
+  Und das Banner wechselt mit der Uhrzeit in Berlin - siehe
+  .github/workflows/banner.yml. Wenn es dunkel ist, ist es hier auch dunkel.
+-->
+
 <div align="center">
 
-<img src="assets/banner.jpg" alt="Illustration eines Entwicklers am Schreibtisch bei Nacht: zwei schwarze Katzen, Code auf zwei Bildschirmen, Ghibli-Deko im Regal, Stadtlichter im Fenster" width="100%" />
+<!-- banner-now.jpg wird von .github/workflows/banner.yml alle drei Stunden auf
+     die passende Tageszeit-Variante gesetzt. Der Alt-Text muss deshalb ohne
+     Tageszeit auskommen. -->
+<img src="assets/banner-now.jpg" alt="Illustration eines Entwicklers am Schreibtisch: zwei schwarze Katzen, Code auf zwei Bildschirmen, Ghibli-Deko im Regal, Stadt im Fenster" width="100%" />
 
 # Hi, ich bin Philipp 👋
 
-**Web- & Fullstack-Entwickler** · TypeScript · React · Next.js · Node.js
+<!-- Selbst gebaute SMIL-Animation, gebaut von scripts/build-terminal-svg.mjs.
+     Relative Pfade rechnet GitHub nur im src von <img> um, im srcset von
+     <source> nicht verlaesslich - deshalb dort die absoluten raw-URLs, so wie
+     beim Snake-Block weiter unten. Das relative src bleibt als Fallback. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frontend-Head/Frontend-Head/main/assets/terminal-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Frontend-Head/Frontend-Head/main/assets/terminal-light.svg" />
+  <img src="assets/terminal-dark.svg" alt="Terminal-Sitzung: whoami ergibt Philipp, Web- und Fullstack-Entwickler; cat stack.txt ergibt TypeScript, React, Next.js, Node.js; ls projekte/ ergibt devspace und misc-encoder" width="460" />
+</picture>
 
 <a href="https://github.com/Frontend-Head?tab=repositories">
   <img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
@@ -23,6 +43,16 @@ und Zuständen, die auf den ersten Blick niemand bedacht hat.
 ---
 
 ## Tech Stack
+
+<div align="center">
+
+<img src="assets/languages.svg" alt="Verteilung der Programmiersprachen über alle Repositories, private eingeschlossen" width="60%" />
+
+</div>
+
+<details>
+<summary><b>Alle Werkzeuge im Detail</b></summary>
+<br />
 
 <!-- GitHub rendert Bilder im README als display:block, dadurch steht jedes
      Badge in einer eigenen Zeile. CSS laesst der Sanitizer nicht durch
@@ -45,6 +75,8 @@ und Zuständen, die auf den ersten Blick niemand bedacht hat.
 **Tools**
 
 <img align="left" hspace="2" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" /><img align="left" hspace="2" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /><br clear="all" />
+
+</details>
 
 ---
 
