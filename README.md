@@ -54,12 +54,12 @@ und Zuständen, die auf den ersten Blick niemand bedacht hat.
 
 <img src="https://img.shields.io/badge/Repo-privat-6e7681?style=flat-square&logo=github&logoColor=white" alt="Privates Repo" />
 
-Ein Arbeitsplatz für alles, was beim Entwickeln nebenher anfällt: acht Module –
-Notizen, Snippets mit Syntax-Highlighting, To-Dos, Daily Log, Textbausteine,
-Kontakte, Linkarchiv und ein Ende-zu-Ende-verschlüsselter Tresor. Cloud-Sync über
-alle Geräte, aufs Handy installierbar. Darunter unter anderem ein Markdown-Editor
-mit `[[Wiki-Verlinkungen]]` und Backlinks, ein Kalender mit Drag-&-Drop, Kanban-Boards,
-Zeiterfassung mit Projekt-Budgets und ein Versionsverlauf mit zeilenweisem Diff.
+Acht Module unter einer Oberfläche: Notizen, Snippets mit Syntax-Highlighting,
+To-Dos, Daily Log, Textbausteine, Kontakte, Linkarchiv und ein
+Ende-zu-Ende-verschlüsselter Tresor. Dazu ein Markdown-Editor mit
+`[[Wiki-Verlinkungen]]` und Backlinks, ein Kalender mit Drag-&-Drop,
+Kanban-Boards, Zeiterfassung mit Projekt-Budgets und ein Versionsverlauf mit
+zeilenweisem Diff. Synchronisiert über mehrere Geräte, als PWA installierbar.
 Neuaufbau eines alten Single-File-Tools als React-App mit Supabase-Backend.
 
 <img align="left" hspace="2" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /><img align="left" hspace="2" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" /><img align="left" hspace="2" src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query" /><img align="left" hspace="2" src="https://img.shields.io/badge/Zustand-443E38?style=flat-square" alt="Zustand" /><img align="left" hspace="2" src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="2" src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA" /><br clear="all" />
@@ -68,12 +68,12 @@ Neuaufbau eines alten Single-File-Tools als React-App mit Supabase-Backend.
 
 <img src="https://img.shields.io/badge/Repo-privat-6e7681?style=flat-square&logo=github&logoColor=white" alt="Privates Repo" />
 
-Wandelt Text aus PowerPoint und Word in sauberes Newsletter-HTML um. Kern ist ein
-WYSIWYG-Editor auf Basis von Tiptap, hinter dem eine Verarbeitungs-Pipeline steht:
+Wandelt Text aus PowerPoint und Word in Newsletter-HTML. Kern ist ein
+WYSIWYG-Editor auf Basis von Tiptap mit nachgelagerter Verarbeitungs-Pipeline:
 Struktur und Text sind strikt getrennt, die Ausgaberegeln liegen als
-mandantenspezifische, im Adminmenü pflegbare und einzeln abschaltbare Regelwerke vor.
-Lässt sich zu einer einzigen ~450 kB großen HTML-Datei bauen, die ohne Node und
-ohne Server auskommt.
+mandantenspezifische, im Adminmenü pflegbare und einzeln abschaltbare Regelwerke
+vor. Baubar als einzelne HTML-Datei von rund 450 kB, die ohne Node und ohne
+Server läuft.
 
 <img align="left" hspace="2" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Tiptap-000000?style=flat-square&logo=tiptap&logoColor=white" alt="Tiptap" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" /><br clear="all" />
 
@@ -82,14 +82,13 @@ ohne Server auskommt.
 <img src="https://img.shields.io/badge/Repo-privat-6e7681?style=flat-square&logo=github&logoColor=white" alt="Privates Repo" />
 
 Baut aus Ziel-URLs und Rufnummern die Tracking-Links einer Newsletter-Kampagne,
-verarbeitet Listen im Stapel und nimmt bestehende Links wieder auseinander. Der
-Kern ist das Kodieren: Platzhalter der Form `{(name)}` müssen das
-Prozent-Encoding unbeschadet überstehen, sonst kann der Versand sie später nicht
-mehr ersetzen. Die Analyse spielt einen fertigen Link mit Testwerten durch und
-findet die Zeichen, an denen es sonst stumm scheitert — geschützte Leerzeichen,
-breitenlose Zeichen, typografische Anführungszeichen aus Word und Outlook. Baubar
-als Einzeldatei, die per Doppelklick offline läuft: der Build bricht ab, sobald
-ein dynamisches `import()` im Bündel steht.
+verarbeitet Listen im Stapel und zerlegt bestehende Links wieder in ihre
+Bestandteile. Kern ist das Kodieren: Platzhalter der Form `{(name)}` müssen das
+Prozent-Encoding unverändert überstehen, damit der Versand sie später ersetzen
+kann. Die Analyse spielt einen fertigen Link mit Testwerten durch und findet
+geschützte Leerzeichen, breitenlose Zeichen und typografische Anführungszeichen
+aus Word und Outlook. Baubar als einzelne HTML-Datei, die ohne Installation
+läuft.
 
 <img align="left" hspace="2" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" /><br clear="all" />
 
