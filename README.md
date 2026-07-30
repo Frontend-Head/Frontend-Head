@@ -44,11 +44,18 @@ und Zuständen, die auf den ersten Blick niemand bedacht hat.
 
 ## Tech Stack
 
+<!-- Sprachverteilung: noch aus, weil assets/languages.svg erst entsteht, wenn im
+     Repo ein Secret METRICS_TOKEN (PAT mit "repo"-Scope) liegt. Ohne das zaehlt
+     nur oeffentlicher Code, und oeffentlich ist hier bloss dieses Profil-Repo.
+     Sobald das Secret da ist und "gh workflow run Metrics" einmal durchlief:
+     die naechsten vier Zeilen einkommentieren.
+
 <div align="center">
 
 <img src="assets/languages.svg" alt="Verteilung der Programmiersprachen über alle Repositories, private eingeschlossen" width="60%" />
 
 </div>
+-->
 
 <details>
 <summary><b>Alle Werkzeuge im Detail</b></summary>

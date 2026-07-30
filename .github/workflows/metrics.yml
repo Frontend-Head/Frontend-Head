@@ -25,6 +25,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      # Der secrets-Kontext ist in if-Bedingungen nicht verfügbar, deshalb der
+      # Umweg über eine Job-Variable.
+      HAS_PAT: ${{ secrets.METRICS_TOKEN != '' && 'true' || 'false' }}
     steps:
       - name: Contribution-Kalender
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
@@ -37,13 +41,19 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      # Kein GITHUB_TOKEN-Fallback: ohne PAT zählt nur, was öffentlich ist, und
-      # die Grafik wäre irreführend statt bloß unvollständig. Dann soll der
-      # Schritt lieber scheitern.
+      # Kein GITHUB_TOKEN-Fallback: öffentlich ist nur dieses Profil-Repo, die
+      # Grafik würde also "JavaScript 100 %" behaupten. Das wäre falscher als
+      # keine Grafik. Ohne PAT überspringt der Schritt sich deshalb - so bleibt
+      # der Lauf grün, statt jeden Tag eine Fehlermail zu erzeugen.
+      #
+      # Zum Einschalten: PAT mit "repo"-Scope anlegen, als Secret
+      # METRICS_TOKEN hinterlegen, dann greift der Schritt beim nächsten Lauf
+      # von allein. Danach das <img> in README.md wieder einkommentieren.
       #
       # plugin_languages_indepth bleibt aus - es klont jedes Repo einzeln und
       # vervielfacht die Laufzeit; die Byte-Statistik der API genügt hier.
       - name: Sprachverteilung
+        if: env.HAS_PAT == 'true'
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}

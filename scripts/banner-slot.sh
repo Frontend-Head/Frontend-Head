@@ -9,7 +9,13 @@
 # Europe/Berlin erledigt die Sommer-/Winterzeit, deshalb kein eigener Offset.
 
 hour=${1:-$(TZ=Europe/Berlin date +%H)}
-hour=$((10#$hour)) # "07" ist sonst eine ungültige Oktalzahl
+
+# Führende Null weg, bevor gerechnet wird: "07" wäre in der Arithmetik eine
+# ungültige Oktalzahl. Die naheliegende Schreibweise $((10#$hour)) ist eine
+# Bash-Erweiterung - auf den Runnern ist /bin/sh aber dash, und die bricht damit
+# ab. Deshalb POSIX-Parameterexpansion.
+hour=${hour#0}
+[ -n "$hour" ] || hour=0 # "00" wird durch das Abschneiden zu ""
 
 if [ "$hour" -ge 5 ] && [ "$hour" -le 9 ]; then
   echo morgen
