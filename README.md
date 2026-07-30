@@ -77,6 +77,22 @@ ohne Server auskommt.
 
 <img align="left" hspace="2" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Tiptap-000000?style=flat-square&logo=tiptap&logoColor=white" alt="Tiptap" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" /><br clear="all" />
 
+### URL-Generator &nbsp;·&nbsp; Tracking-Links bauen, stapeln, zerlegen
+
+<img src="https://img.shields.io/badge/Repo-privat-6e7681?style=flat-square&logo=github&logoColor=white" alt="Privates Repo" />
+
+Baut aus Ziel-URLs und Rufnummern die Tracking-Links einer Newsletter-Kampagne,
+verarbeitet Listen im Stapel und nimmt bestehende Links wieder auseinander. Der
+Kern ist das Kodieren: Platzhalter der Form `{(name)}` müssen das
+Prozent-Encoding unbeschadet überstehen, sonst kann der Versand sie später nicht
+mehr ersetzen. Die Analyse spielt einen fertigen Link mit Testwerten durch und
+findet die Zeichen, an denen es sonst stumm scheitert — geschützte Leerzeichen,
+breitenlose Zeichen, typografische Anführungszeichen aus Word und Outlook. Baubar
+als Einzeldatei, die per Doppelklick offline läuft: der Build bricht ab, sobald
+ein dynamisches `import()` im Bündel steht.
+
+<img align="left" hspace="2" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" /><br clear="all" />
+
 ---
 
 ## Contribution Graph
