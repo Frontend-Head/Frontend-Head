@@ -7,10 +7,8 @@ on:
   schedule:
     - cron: "0 4 * * *"
   workflow_dispatch:
-
-concurrency:
-  group: snake
-  cancel-in-progress: true
+  push:
+    branches: [main]
 
 jobs:
   build:
@@ -18,7 +16,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+      - uses: Platane/snk@v3
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -26,7 +24,7 @@ jobs:
             dist/snake-dark.svg?palette=github-dark
             dist/snake-light.svg?palette=github-light
 
-      - uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
