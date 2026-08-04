@@ -92,6 +92,24 @@ läuft.
 
 <img align="left" hspace="2" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" /><br clear="all" />
 
+### NL-Checker &nbsp;·&nbsp; QA für HTML-Newsletter als Chrome-Erweiterung
+
+<img src="https://img.shields.io/badge/Repo-privat-6e7681?style=flat-square&logo=github&logoColor=white" alt="Privates Repo" />
+
+Prüft eine geöffnete Newsletter-Vorschau gegen 55 Regeln in elf Kategorien —
+Pflichtangaben, Redaktion, Barrierefreiheit, Client-Rendering, Zustellbarkeit.
+Die Befunde stehen in einer Seitenleiste und sind zugleich im Dokument
+umrandet; ein Klick springt zur Fundstelle. Dazu eine Report-Ansicht mit
+Score-Ring, Kategoriematrix und einer Sicht nach betroffenem Postfach, gedeckt
+durch caniemail-Daten. Die Mobilvorschau läuft in einem `<iframe>` mit eigenem
+Viewport, damit Media Queries wirklich greifen; die Dark-Mode-Simulation kehrt
+die Helligkeit in HSL um, statt RGB zu invertieren. Zwei Fixtures halten die
+Regeln ehrlich: eine fehlerhafte Datei mit erwarteten Trefferzahlen und eine
+saubere, die null Befunde liefern muss. Manifest V3, ohne Build-Schritt und
+ohne Zugriff nach außen.
+
+<img align="left" hspace="2" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome Extension" /><img align="left" hspace="2" src="https://img.shields.io/badge/Manifest_V3-1A73E8?style=flat-square" alt="Manifest V3" /><img align="left" hspace="2" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" /><img align="left" hspace="2" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" /><br clear="all" />
+
 ---
 
 ## Contribution Graph
