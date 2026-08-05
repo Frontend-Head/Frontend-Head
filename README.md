@@ -14,12 +14,15 @@
 
 ## Über mich
 
-Web- und Fullstack-Entwickler — vom Interface bis zur API dahinter, mit
-Schwerpunkt auf TypeScript, React und Next.js.
+Ich bin Web- und Fullstack-Entwickler und arbeite hauptsächlich mit TypeScript,
+React und Next.js — Frontend wie Backend.
 
-Technik begeistert mich weit über den Browser hinaus: IoT und Home Assistant,
-Smart-Home-Automatisierung, kleine Boards und Sensoren, 3D-Druck. Was sich
-automatisieren lässt, landet früher oder später bei mir in einem Skript.
+Technik begeistert mich auch abseits vom Rechner: IoT und Home Assistant,
+Smart-Home-Automatisierung, kleine Boards und Sensoren, 3D-Druck.
+
+Außerdem automatisiere ich gern. Für wiederkehrende Handgriffe baue ich mir
+kleine Helper-Skripte und Tools — so sind auch die meisten Projekte hier
+entstanden.
 
 ---
 
