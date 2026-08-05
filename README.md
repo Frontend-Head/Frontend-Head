@@ -14,15 +14,14 @@
 
 ## Über mich
 
-Ich bin Web- und Fullstack-Entwickler und arbeite hauptsächlich mit TypeScript,
-React und Next.js — Frontend wie Backend.
+Ich bin Web- und Fullstack-Entwickler, meistens mit TypeScript, React und
+Next.js unterwegs.
 
-Technik begeistert mich auch abseits vom Rechner: IoT und Home Assistant,
-Smart-Home-Automatisierung, kleine Boards und Sensoren, 3D-Druck.
+Auch sonst bastel ich viel mit Technik: IoT, Home Assistant, Smart Home, kleine
+Boards und Sensoren, 3D-Druck.
 
-Außerdem automatisiere ich gern. Für wiederkehrende Handgriffe baue ich mir
-kleine Helper-Skripte und Tools — so sind auch die meisten Projekte hier
-entstanden.
+Und ich automatisiere gern. Was ich zum dritten Mal von Hand mache, packe ich
+in ein Skript. So sind auch die meisten Projekte hier entstanden.
 
 ---
 
@@ -70,7 +69,7 @@ Tresor. Synchronisiert über mehrere Geräte, als PWA installierbar.
 
 Wandelt Text aus PowerPoint und Word in fertiges Newsletter-HTML — geschrieben
 in einem WYSIWYG-Editor, formatiert nach Regelwerken, die sich pro Mandant
-pflegen lassen. Läuft als einzelne HTML-Datei ohne Server.
+pflegen lassen.
 
 <img align="left" hspace="2" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Tiptap-000000?style=flat-square&logo=tiptap&logoColor=white" alt="Tiptap" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" /><br clear="all" />
 
@@ -80,8 +79,7 @@ pflegen lassen. Läuft als einzelne HTML-Datei ohne Server.
 
 Baut Tracking-Links für Newsletter-Kampagnen, einzeln oder als Stapel, und
 zerlegt bestehende Links wieder in ihre Bestandteile. Eine Analyse prüft fertige
-Links auf typische Fehlerquellen. Läuft als einzelne HTML-Datei ohne
-Installation.
+Links auf typische Fehlerquellen.
 
 <img align="left" hspace="2" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" /><br clear="all" />
 
