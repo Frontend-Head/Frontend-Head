@@ -2,7 +2,7 @@
 
 # Hi, ich bin Phil 👋
 
-**Web- & Fullstack-Entwickler** · TypeScript · React · Next.js · Node.js
+**Web- & Fullstack-Entwickler**
 
 <a href="https://github.com/Frontend-Head?tab=repositories">
   <img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
@@ -17,14 +17,14 @@
 
 ## Über mich
 
-Ich bin Web- und Fullstack-Entwickler, meistens mit TypeScript, React und
-Next.js unterwegs.
+Ich bin Web- und Fullstack-Entwickler. Ich lese mich gern in neue Themen ein
+und probiere Sachen einfach aus.
 
-Auch sonst bastel ich viel mit Technik: IoT, Home Assistant, Smart Home, kleine
+Technik ist auch sonst mein Ding: IoT, Home Assistant, Smart Home, kleine
 Boards und Sensoren, 3D-Druck.
 
-Und ich automatisiere gern. Was ich zum dritten Mal von Hand mache, packe ich
-in ein Skript. So sind auch die meisten Projekte hier entstanden.
+Und ich automatisiere gern — kleine Helper-Tools und Skripte für alles, was
+sonst Handarbeit wäre.
 
 ---
 
