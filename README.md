@@ -23,7 +23,7 @@ und probiere Sachen einfach aus.
 Technik ist auch sonst mein Ding: IoT, Home Assistant, Smart Home, kleine
 Boards und Sensoren, 3D-Druck.
 
-Und ich automatisiere gern — kleine Helper-Tools und Skripte für alles, was
+Und ich automatisiere gern: kleine Helper-Tools und Skripte für alles, was
 sonst Handarbeit wäre.
 
 ---
@@ -70,8 +70,8 @@ Tresor. Synchronisiert über mehrere Geräte, als PWA installierbar.
 
 <img src="https://img.shields.io/badge/Repo-privat-6e7681?style=flat-square&logo=github&logoColor=white" alt="Privates Repo" />
 
-Wandelt Text aus PowerPoint und Word in fertiges Newsletter-HTML — geschrieben
-in einem WYSIWYG-Editor, formatiert nach Regelwerken, die sich pro Mandant
+Wandelt Text aus PowerPoint und Word in fertiges Newsletter-HTML. Geschrieben
+wird in einem WYSIWYG-Editor, formatiert nach Regelwerken, die sich pro Mandant
 pflegen lassen.
 
 <img align="left" hspace="2" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Tiptap-000000?style=flat-square&logo=tiptap&logoColor=white" alt="Tiptap" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" /><br clear="all" />

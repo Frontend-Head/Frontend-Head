@@ -23,7 +23,7 @@ trying things out.
 Tech is my thing outside of work too: IoT, Home Assistant, smart home, small
 boards and sensors, 3D printing.
 
-And I like automating things — small helper tools and scripts for anything that
+And I like automating things: small helper tools and scripts for anything that
 would otherwise be manual work.
 
 ---
@@ -70,9 +70,9 @@ devices, installable as a PWA.
 
 <img src="https://img.shields.io/badge/Repo-private-6e7681?style=flat-square&logo=github&logoColor=white" alt="Private repo" />
 
-Turns text from PowerPoint and Word into finished newsletter HTML — written in
-a WYSIWYG editor and formatted according to rule sets that can be maintained
-per tenant.
+Turns text from PowerPoint and Word into finished newsletter HTML. The text is
+written in a WYSIWYG editor and formatted according to rule sets that can be
+maintained per tenant.
 
 <img align="left" hspace="2" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><img align="left" hspace="2" src="https://img.shields.io/badge/Tiptap-000000?style=flat-square&logo=tiptap&logoColor=white" alt="Tiptap" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /><img align="left" hspace="2" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" /><br clear="all" />
 
