@@ -18,6 +18,11 @@ on:
 
 # Der Job committet selbst nach assets/. Ohne die Sperre unten koennen ein
 # geplanter und ein manuell gestarteter Lauf gleichzeitig auf main schreiben.
+# Standard fuer alle Jobs: nur lesen. Der Job unten hebt sich das
+# contents: write selbst an, weil er die SVG committet.
+permissions:
+  contents: read
+
 concurrency:
   group: metrics
   cancel-in-progress: false
