@@ -9,6 +9,8 @@ name: Metrics
 
 on:
   schedule:
+    # Cron laeuft in UTC, also 06:30 Sommerzeit bzw. 05:30 Winterzeit in
+    # Berlin. Versetzt zu snake.yml, damit die beiden nicht kollidieren.
     - cron: "30 4 * * *"
   workflow_dispatch:
   push:
