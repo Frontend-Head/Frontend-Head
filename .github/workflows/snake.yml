@@ -9,6 +9,11 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths-ignore:
+      - "assets/**"
+
+permissions:
+  contents: read
 
 concurrency:
   group: snake
