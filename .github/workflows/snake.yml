@@ -5,6 +5,7 @@ name: Snake
 
 on:
   schedule:
+    # Cron laeuft in UTC, hier 30 Minuten vor metrics.yml.
     - cron: "0 4 * * *"
   workflow_dispatch:
   push:
