@@ -13,3 +13,10 @@ updates:
       prefix: chore
     labels:
       - dependencies
+    ignore:
+      # lowlighter/metrics veroeffentlicht keine v4. Dependabot loest die
+      # Major-Version trotzdem auf und schlaegt einen beweglichen Branch
+      # statt eines Releases vor.
+      - dependency-name: lowlighter/metrics
+        update-types:
+          - version-update:semver-major
