@@ -13,6 +13,14 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths-ignore:
+      - "assets/**"
+
+# Der Job committet selbst nach assets/. Ohne die Sperre unten koennen ein
+# geplanter und ein manuell gestarteter Lauf gleichzeitig auf main schreiben.
+concurrency:
+  group: metrics
+  cancel-in-progress: false
 
 jobs:
   metrics:
