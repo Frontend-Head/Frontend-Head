@@ -1,0 +1,15 @@
+version: 2
+
+# Haelt die Action-Versionen in den beiden Workflows aktuell.
+# Ohne das laufen metrics.yml und snake.yml irgendwann auf gepinnten
+# Versionen, die GitHub nicht mehr unterstuetzt.
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: chore
+    labels:
+      - dependencies
