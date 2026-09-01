@@ -26,7 +26,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+      - name: Snake-Animation rendern
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -34,7 +35,8 @@ jobs:
             dist/snake-dark.svg?palette=github-dark
             dist/snake-light.svg?palette=github-light
 
-      - uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5
+      - name: SVGs in den output-Branch schreiben
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5
         with:
           target_branch: output
           build_dir: dist
