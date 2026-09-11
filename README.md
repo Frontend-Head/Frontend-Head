@@ -24,7 +24,7 @@ Auch privat interessiert mich Technik. Ich betreibe ein HomeLab, mein Smart
 Home läuft über Home Assistant, und ich beschäftige mich mit IoT und 3D-Druck.
 
 Außerdem automatisiere ich gern alles, was sonst Handarbeit wäre, mit Skripten
-oder kleinen Helper-Tools. AI nutze ich jeden Tag, vor allem beim Programmieren.
+oder kleinen Helper-Tools.
 
 ---
 
