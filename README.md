@@ -20,9 +20,8 @@
 Ich bin Fullstack-Entwickler. Ich lese mich gern in neue Themen ein und
 probiere Sachen einfach aus.
 
-Auch privat dreht sich viel um Technik. Ich betreibe ein HomeLab, mein Smart
-Home läuft über Home Assistant, und ich bastle an IoT-Projekten mit kleinen
-Boards und Sensoren. Teile, die dafür fehlen, drucke ich mit dem 3D-Drucker.
+Auch privat interessiert mich Technik. Ich betreibe ein HomeLab, mein Smart
+Home läuft über Home Assistant, und ich beschäftige mich mit IoT und 3D-Druck.
 
 Außerdem automatisiere ich gern alles, was sonst Handarbeit wäre, mit Skripten
 oder kleinen Helper-Tools. AI nutze ich jeden Tag, vor allem beim Programmieren.

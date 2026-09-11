@@ -20,9 +20,8 @@
 I'm a fullstack developer. I enjoy digging into new topics and just trying
 things out.
 
-Outside of work, a lot of my time goes into tech as well. I run a homelab, my
-smart home runs on Home Assistant, and I tinker with IoT projects using small
-boards and sensors. Parts I'm missing for them, I print on the 3D printer.
+I'm interested in tech outside of work too. I run a homelab, my smart home
+runs on Home Assistant, and I'm into IoT and 3D printing.
 
 I also like automating anything that would otherwise be manual work, with
 scripts or small helper tools. I use AI every day, mostly for programming.
