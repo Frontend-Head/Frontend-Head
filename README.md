@@ -2,7 +2,7 @@
 
 # Hi, ich bin Phil 👋
 
-**Web- & Fullstack-Entwickler**
+**Fullstack-Entwickler**
 
 <a href="https://github.com/Frontend-Head?tab=repositories">
   <img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
@@ -17,18 +17,15 @@
 
 ## Über mich
 
-Ich bin Web- und Fullstack-Entwickler. Ich lese mich gern in neue Themen ein
-und probiere Sachen einfach aus.
+Ich bin Fullstack-Entwickler. Ich lese mich gern in neue Themen ein und
+probiere Sachen einfach aus.
 
-Viel davon passiert zu Hause: Im HomeLab laufen meine selbst gehosteten
-Dienste, das Smart Home steuert Home Assistant, und für IoT-Projekte verbinde
-ich kleine Boards mit Sensoren. Gehäuse und Halterungen dafür kommen aus dem
-3D-Drucker.
+Auch privat dreht sich viel um Technik. Ich betreibe ein HomeLab, mein Smart
+Home läuft über Home Assistant, und ich bastle an IoT-Projekten mit kleinen
+Boards und Sensoren. Teile, die dafür fehlen, drucke ich mit dem 3D-Drucker.
 
-Was sonst Handarbeit wäre, automatisiere ich: mit Skripten, kleinen
-Helper-Tools oder Automationen im Smart Home. AI gehört inzwischen fest dazu.
-Ich entwickle mit Sprachmodellen und teste, wo sie in eigenen Tools und
-Abläufen tatsächlich helfen.
+Außerdem automatisiere ich gern alles, was sonst Handarbeit wäre, mit Skripten
+oder kleinen Helper-Tools. AI nutze ich jeden Tag, vor allem beim Programmieren.
 
 ---
 
