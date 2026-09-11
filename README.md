@@ -20,11 +20,15 @@
 Ich bin Web- und Fullstack-Entwickler. Ich lese mich gern in neue Themen ein
 und probiere Sachen einfach aus.
 
-Technik ist auch sonst mein Ding: IoT, Home Assistant, Smart Home, kleine
-Boards und Sensoren, 3D-Druck.
+Viel davon passiert zu Hause: Im HomeLab laufen meine selbst gehosteten
+Dienste, das Smart Home steuert Home Assistant, und für IoT-Projekte verbinde
+ich kleine Boards mit Sensoren. Gehäuse und Halterungen dafür kommen aus dem
+3D-Drucker.
 
-Und ich automatisiere gern: kleine Helper-Tools und Skripte für alles, was
-sonst Handarbeit wäre.
+Was sonst Handarbeit wäre, automatisiere ich: mit Skripten, kleinen
+Helper-Tools oder Automationen im Smart Home. AI gehört inzwischen fest dazu.
+Ich entwickle mit Sprachmodellen und teste, wo sie in eigenen Tools und
+Abläufen tatsächlich helfen.
 
 ---
 

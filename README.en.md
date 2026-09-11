@@ -20,11 +20,14 @@
 I'm a web and fullstack developer. I enjoy digging into new topics and just
 trying things out.
 
-Tech is my thing outside of work too: IoT, Home Assistant, smart home, small
-boards and sensors, 3D printing.
+A lot of that happens at home: my homelab runs self-hosted services, Home
+Assistant controls the smart home, and for IoT projects I hook up small boards
+to sensors. Enclosures and mounts for them come off the 3D printer.
 
-And I like automating things: small helper tools and scripts for anything that
-would otherwise be manual work.
+Anything that would otherwise be manual work gets automated: with scripts,
+small helper tools or smart home automations. AI is a fixed part of that by
+now. I develop with language models and test where they actually help in my
+own tools and workflows.
 
 ---
 
