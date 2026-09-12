@@ -1,16 +1,16 @@
 name: Metrics
 
-# Rendert den Contribution-Kalender als SVG und committet ihn nach assets/.
-# Dadurch hängt das README an keiner fremden Infrastruktur.
+# Renders the contribution calendar as an SVG and commits it to assets/.
+# That way the README does not depend on any third-party infrastructure.
 #
-# Hinweis: Mit dem Standard-GITHUB_TOKEN sind nur öffentliche Daten sichtbar.
-# Für Auswertungen über private Repos (Sprachverteilung, Commit-Zahlen)
-# braucht es ein PAT mit "repo"-Scope, hinterlegt als Secret METRICS_TOKEN.
+# Note: with the default GITHUB_TOKEN only public data is visible.
+# Stats across private repos (language breakdown, commit counts) need a PAT
+# with the "repo" scope, stored as the secret METRICS_TOKEN.
 
 on:
   schedule:
-    # Cron laeuft in UTC, also 06:30 Sommerzeit bzw. 05:30 Winterzeit in
-    # Berlin. Versetzt zu snake.yml, damit die beiden nicht kollidieren.
+    # Cron runs in UTC, so 06:30 in summer and 05:30 in winter in Berlin.
+    # Offset from snake.yml so the two do not collide.
     - cron: "30 4 * * *"
   workflow_dispatch:
   push:
@@ -18,13 +18,13 @@ on:
     paths-ignore:
       - "assets/**"
 
-# Standard fuer alle Jobs: nur lesen. Der Job unten hebt sich das
-# contents: write selbst an, weil er die SVG committet.
+# Default for all jobs: read only. The job below raises itself to
+# contents: write because it commits the SVG.
 permissions:
   contents: read
 
-# Der Job committet selbst nach assets/. Ohne die Sperre koennen ein
-# geplanter und ein manuell gestarteter Lauf gleichzeitig auf main schreiben.
+# The job commits to assets/ itself. Without the lock, a scheduled and a
+# manually started run could write to main at the same time.
 concurrency:
   group: metrics
   cancel-in-progress: false
@@ -36,7 +36,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Contribution-Kalender
+      - name: Contribution calendar
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}

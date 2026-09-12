@@ -1,5 +1,5 @@
-# Workflows und Markdown werden von Actions unter Linux gelesen.
-# Ohne die Normalisierung landen unter Windows CRLF im Repo.
+# Workflows and Markdown are read by Actions on Linux.
+# Without this normalization, CRLF ends up in the repo on Windows.
 * text=auto eol=lf
 
 *.svg text eol=lf

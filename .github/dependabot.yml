@@ -1,8 +1,8 @@
 version: 2
 
-# Haelt die Action-Versionen in den beiden Workflows aktuell.
-# Ohne das laufen metrics.yml und snake.yml irgendwann auf gepinnten
-# Versionen, die GitHub nicht mehr unterstuetzt.
+# Keeps the action versions in both workflows up to date.
+# Without this, metrics.yml and snake.yml eventually run on pinned
+# versions that GitHub no longer supports.
 
 updates:
   - package-ecosystem: github-actions
@@ -14,9 +14,9 @@ updates:
     labels:
       - dependencies
     ignore:
-      # lowlighter/metrics veroeffentlicht keine v4. Dependabot loest die
-      # Major-Version trotzdem auf und schlaegt einen beweglichen Branch
-      # statt eines Releases vor.
+      # lowlighter/metrics does not publish a v4. Dependabot resolves the
+      # major version anyway and suggests a moving branch instead of a
+      # release.
       - dependency-name: lowlighter/metrics
         update-types:
           - version-update:semver-major
